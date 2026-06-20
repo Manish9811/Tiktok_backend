@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
 import dotenv from "dotenv";
+import pg from 'pg'; // Explicit import so Vercel includes it in the bundle
 
 dotenv.config();
 
